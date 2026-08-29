@@ -1,0 +1,29 @@
+{
+  "name": "neon-run",
+  "author": "ClawBro",
+  "version": "1.2.2",
+  "keywords": [
+    "pebble-app",
+    "game"
+  ],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "NeonRun",
+    "uuid": "6ee19e62-79fa-4964-904c-fd695cd21e18",
+    "sdkVersion": "3",
+    "enableMultiJS": false,
+    "targetPlatforms": [
+      "emery"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}

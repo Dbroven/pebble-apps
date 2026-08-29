@@ -1,1 +1,19 @@
 # pebble-apps
+
+A collection of games for Pebble smartwatches (Rebble ecosystem). Each game lives in its own folder and builds with the Pebble SDK (`pebble-tool`). All games target the **emery** platform (Pebble Time 2).
+
+## Games
+
+| Game | Version | Description |
+|------|---------|-------------|
+| [NeonRun](neon-run/) | v1.2.2 | Neon cat runner — jump, double jump, slide past spikes and drones, collect crystals, build combos. |
+| [NeonRunLanes](neon-run-lanes/) | v1.6.3 | 3-lane pseudo-3D neon runner — switch lanes, jump barriers, ride trains, dodge hover drones, trail crystals. |
+| [PULSE](pulse-runner/) | v2.0.0 | Endless tunnel runner with Tron-style walls, rifts, procedural chiptune audio and an animated Pulse character. |
+
+## Install
+
+Download a ready-made `.pbw` from [Releases](../../releases) and sideload it with the Pebble app, or build from source:
+
+```bash
+cd neon-run && pebble build
+```
