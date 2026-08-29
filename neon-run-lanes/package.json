@@ -1,0 +1,26 @@
+{
+  "name": "neon-run-lanes",
+  "author": "ClawBro",
+  "version": "1.6.3",
+  "keywords": ["pebble-app", "game"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "NeonRunLanes",
+    "uuid": "84bbba23-5aed-4b48-8193-a7ae4e0e3433",
+    "sdkVersion": "3",
+    "enableMultiJS": false,
+    "targetPlatforms": [
+      "emery"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}
