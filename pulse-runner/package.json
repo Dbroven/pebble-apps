@@ -1,0 +1,29 @@
+{
+  "name": "pulse-runner",
+  "author": "ClawBro",
+  "version": "2.0.0",
+  "keywords": [
+    "pebble-app",
+    "game"
+  ],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "PULSE",
+    "uuid": "7964114a-9160-42cd-aaa2-5cffb4592bfd",
+    "sdkVersion": "3",
+    "enableMultiJS": false,
+    "targetPlatforms": [
+      "emery"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}
