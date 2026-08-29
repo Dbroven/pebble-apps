@@ -10,6 +10,15 @@ A collection of games for Pebble smartwatches (Rebble ecosystem). Each game live
 | [NeonRunLanes](neon-run-lanes/) | v1.6.3 | 3-lane pseudo-3D neon runner — switch lanes, jump barriers, ride trains, dodge hover drones, trail crystals. |
 | [PULSE](pulse-runner/) | v2.0.0 | Endless tunnel runner with Tron-style walls, rifts, procedural chiptune audio and an animated Pulse character. |
 
+## Previews
+
+**NeonRun**
+
+<p align="center">
+  <img src="neon-run/screenshots/title.png" width="180" alt="NeonRun title screen">
+  <img src="neon-run/screenshots/gameplay.png" width="180" alt="NeonRun gameplay">
+</p>
+
 ## Install
 
 Download a ready-made `.pbw` from [Releases](../../releases) and sideload it with the Pebble app, or build from source:
