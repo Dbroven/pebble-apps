@@ -1,0 +1,29 @@
+{
+  "name": "dice-five",
+  "author": "ClawBro",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app",
+    "game"
+  ],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Dice5",
+    "uuid": "eaf27860-5663-42aa-b8ac-ef2047509303",
+    "sdkVersion": "3",
+    "enableMultiJS": false,
+    "targetPlatforms": [
+      "emery"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}
