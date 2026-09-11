@@ -213,7 +213,11 @@ static void load(Window *win) {
   if (persist_exists(1)) s_best = persist_read_int(1);
   if (persist_exists(2)) s_roll_count = persist_read_int(2);
 
-  // starting state: a rolled hand on the table
+  // seed the dice RNG from wall clock (second-level) + a fast counter,
+  // so two launches within the same second still diverge
+  uint16_t t_hi, t_ms;
+  time_ms(&t_hi, &t_ms);
+  srand((unsigned int)time(NULL) ^ (unsigned int)t_ms ^ (unsigned int)(uintptr_t)&s_timer);
   for (int i = 0; i < DICE_N; i++) {
     s_face[i] = 1 + (rand() % 6);
     s_shown[i] = s_face[i];
