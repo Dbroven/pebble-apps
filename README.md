@@ -8,6 +8,7 @@ A collection of games for Pebble smartwatches (Rebble ecosystem). Each game live
 |------|---------|-------------|
 | [NeonRun](neon-run/) | v1.2.2 | Neon cat runner — jump, double jump, slide past spikes and drones, collect crystals, build combos. |
 | [NeonRunLanes](neon-run-lanes/) | v1.6.3 | 3-lane pseudo-3D neon runner — switch lanes, jump barriers, ride trains, dodge hover drones, trail crystals. |
+| [Dice5](dice-five/) | v1.0.0 | Roll 5 dice at once — staggered tumble animation, sum, persisted best roll. |
 | [PULSE](pulse-runner/) | v2.0.0 | Endless tunnel runner with Tron-style walls, rifts, procedural chiptune audio and an animated Pulse character. |
 
 ## Previews
